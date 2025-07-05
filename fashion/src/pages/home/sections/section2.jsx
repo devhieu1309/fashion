@@ -9,11 +9,11 @@ export default function Section2(){
                         <h3 className="text-center font-[family-name:var(--font-roboto)] text-[16px] uppercase text-[#0AACDD] font-bold">Áo Polo Nam</h3>
                     </div>
                     <div className="w-[160px] h-[240px] bg-white my-1 shadow-[0_2px_10px_rgba(0,0,0,0.15)]">
-                        <img className="text-white" src="/images/mu-cate-247x296.png" alt="" />
+                        <img className="text-white" src="/images/ao_polo-247x296.png" alt="" />
                         <h3 className="text-center font-[family-name:var(--font-roboto)] text-[16px] uppercase text-[#0AACDD] font-bold">Mũ</h3>
                     </div>
                     <div className="w-[160px] h-[240px] bg-white my-1 shadow-[0_2px_10px_rgba(0,0,0,0.15)]">
-                        <img className="text-white" src="/images/ao-so-mi-1-247x296.png" alt="" />
+                        <img className="text-white" src="/images/mu-cate-247x296.png" alt="" />
                         <h3 className="text-center font-[family-name:var(--font-roboto)] text-[16px] uppercase text-[#0AACDD] font-bold">Áo Sơ Mi</h3>
                     </div>
                     <div className="w-[160px] h-[240px] bg-white my-1 shadow-[0_2px_10px_rgba(0,0,0,0.15)]">

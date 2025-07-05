@@ -143,8 +143,8 @@ export default function Section5(){
                     </div>
                     <div className="flex flex-1 p-3">
                         <div className="w-[35%] h-[195px]"> 
-                            <div class="rounded-[999px] shadow-lg overflow-hidden flex items-center justify-center bg-white">
-                                <img className="text-white" src="/images/1111.jpg" class="w-full h-full object-contain" alt="" />
+                            <div className="rounded-[999px] shadow-lg overflow-hidden flex items-center justify-center bg-white">
+                                <img src="/images/1111.jpg" className="w-full h-full object-contain text-white" alt="" />
                             </div>
                         </div>
                         <div className="flex flex-col flex-1 pl-3">

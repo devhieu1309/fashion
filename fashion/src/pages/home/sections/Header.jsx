@@ -1,4 +1,4 @@
-export default function Header(){
+export default function Header() {
     return (
         <div className="fixed top-0 left-0 right-0 z-50">
             <div className="container mx-auto bg-[#0AACDD] px-40 flex p-1">
@@ -22,9 +22,9 @@ export default function Header(){
                 <div className="flex-1 pl-5">
                     <form action="">
                         <div className="flex w-[70%]">
-                            <input type="text" placeholder="Tìm kiếm sản phẩm..." className="flex-1 border text-black text-[13.2px] border-[#0AACDD] p-2 outline-0 rounded-tl-sm rounded-bl-sm"/>
+                            <input type="text" placeholder="Tìm kiếm sản phẩm..." className="flex-1 border text-black text-[13.2px] border-[#0AACDD] p-2 outline-0 rounded-tl-sm rounded-bl-sm" />
                             <button type="submit" className="w-[15%] bg-[#0AACDD] rounded-tr-sm rounded-br-sm text-white text-[13.2px]">Tìm Kiếm</button>
-                        </div>         
+                        </div>
                     </form>
                 </div>
                 <div className="w-56">
@@ -40,14 +40,109 @@ export default function Header(){
             </div>
             <div className="container mx-auto bg-[#0AACDD] px-40 flex items-center py-2">
                 <div className="flex-1">
-                    <ul className="flex justify-between font-[family-name:var(--font-roboto)] text-[16px] uppercase text-white">
-                        <li className="">Trang chủ</li>
-                        <li>Cửa hàng</li>
-                        <li>Áo</li>
-                        <li>Quần</li>
-                        <li>Phụ Kiện</li>
-                        <li>Chọn size</li>
-                        <li>Hệ thống của hàng fashion</li>
+                    <ul className="group flex justify-between font-[family-name:var(--font-roboto)] text-[16px] text-white">
+                        <li className="uppercase">Trang chủ</li>
+                        <li className="uppercase">Cửa hàng</li>
+                        <li className="uppercase">Áo</li>
+                        <li className="uppercase">Quần</li>
+                        <li className="uppercase">Phụ Kiện</li>
+                        <li className="uppercase">Chọn size</li>
+                        <li className="uppercase">Hệ thống của hàng fashion</li>
+                        <div className="hidden group-hover:block shadow-[0_2px_10px_rgba(0,0,0,0.15)] bg-white fixed top-[160px] rounded-md left-0 right-0 w-[1220px] mx-auto py-4 px-2 pb-6">
+                            <h2 className="text-[#0AACDD] font-bold text-[26px] pb-2">Thực phẩm chức năng</h2>
+                            <div className="grid grid-cols-8 justify-items-center pb-5">
+                                <div className="w-[140px] h-[200px] bg-white my-1 shadow-[0_2px_10px_rgba(0,0,0,0.15)]">
+                                    <img className="text-white" src="/images/ao_polo-247x296.png" alt="" />
+                                    <h3 className="text-center font-[family-name:var(--font-roboto)] text-[16px] text-[#0AACDD] font-bold">Áo Polo Nam</h3>
+                                </div>
+                                <div className="w-[140px] h-[200px] bg-white my-1 shadow-[0_2px_10px_rgba(0,0,0,0.15)]">
+                                     <img className="text-white" src="/images/ao-so-mi-1-247x296.png" alt="" />
+                                    <h3 className="text-center font-[family-name:var(--font-roboto)] text-[16px] text-[#0AACDD] font-bold">Áo sơ mi</h3>
+                                </div>
+                                <div className="w-[140px] h-[200px] bg-white my-1 shadow-[0_2px_10px_rgba(0,0,0,0.15)]">
+                                   <img className="text-white" src="/images/mu-cate-247x296.png" alt="" />
+                                   
+                                    <h3 className="text-center font-[family-name:var(--font-roboto)] text-[16px] text-[#0AACDD] font-bold">Mũ</h3>
+                                </div>
+                                <div className="w-[140px] h-[200px] bg-white my-1 shadow-[0_2px_10px_rgba(0,0,0,0.15)]">
+                                    <img className="text-white" src="/images/quan_kk_tui_cheo_ceff_cm-247x296.png" alt="" />
+                                    <h3 className="text-center font-[family-name:var(--font-roboto)] text-[16px] text-[#0AACDD] font-bold">Quần Kaki</h3>
+                                </div>
+                                <div className="w-[140px] h-[200px] bg-white my-1 shadow-[0_2px_10px_rgba(0,0,0,0.15)]">
+                                    <img className="text-white" src="/images/quan_lot-247x296.png" alt="" />
+                                    <h3 className="text-center font-[family-name:var(--font-roboto)] text-[16px] text-[#0AACDD] font-bold">Quần lót</h3>
+                                </div>
+                                <div className="w-[140px] h-[200px] bg-white my-1 shadow-[0_2px_10px_rgba(0,0,0,0.15)]">
+                                    <img className="text-white" src="/images/do_the_thao_-247x296.png" alt="" />
+                                    <h3 className="text-center font-[family-name:var(--font-roboto)] text-[16px] text-[#0AACDD] font-bold">Quần thể thao</h3>
+                                </div>
+                                <div className="w-[140px] h-[200px] bg-white my-1 shadow-[0_2px_10px_rgba(0,0,0,0.15)]">
+                                    <img className="text-white" src="/images/tui-xach-247x296.jpg" alt="" />
+                                    <h3 className="text-center font-[family-name:var(--font-roboto)] text-[16px] text-[#0AACDD] font-bold">Túi xách</h3>
+                                </div>
+                                <div className="w-[140px] h-[200px] bg-white my-1 shadow-[0_2px_10px_rgba(0,0,0,0.15)]">
+                                    <img className="text-white" src="/images/ao_thun-247x296.png" alt="" />
+                                    <h3 className="text-center font-[family-name:var(--font-roboto)] text-[16px] text-[#0AACDD] font-bold">Áo thun</h3>
+                                </div>
+                            </div>
+                            <div className="grid grid-cols-6 space-x-4">
+                                <div>
+                                    <h3 className="text-[#0AACDD] font-bold text-[18px]">Săn deal Now</h3>
+                                    <ul className="text-black text-[15px] space-y-1">
+                                        <li className="border-b-1 border-gray-200 py-1">Áo polo nam</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Quần Kaki</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo Hoodie</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo thể thao</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 className="text-[#0AACDD] font-bold text-[18px]">Quần áo mùa đông</h3>
+                                    <ul className="text-black text-[15px] space-y-1">
+                                        <li className="border-b-1 border-gray-200 py-1">Áo polo nam</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Quần Kaki</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo Hoodie</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo thể thao</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 className="text-[#0AACDD] font-bold text-[18px]">Quần áo mùa hè</h3>
+                                    <ul className="text-black text-[15px] space-y-1">
+                                        <li className="border-b-1 border-gray-200 py-1">Áo polo nam</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Quần Kaki</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo Hoodie</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo thể thao</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 className="text-[#0AACDD] font-bold text-[18px]">Phụ kiện thời trang</h3>
+                                    <ul className="text-black text-[15px] space-y-1">
+                                        <li className="border-b-1 border-gray-200 py-1">Áo polo nam</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Quần Kaki</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo Hoodie</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo thể thao</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 className="text-[#0AACDD] font-bold text-[18px]">Săn deal Now</h3>
+                                    <ul className="text-black text-[15px] space-y-1">
+                                        <li className="border-b-1 border-gray-200 py-1">Áo polo nam</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Quần Kaki</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo Hoodie</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo thể thao</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h3 className="text-[#0AACDD] font-bold text-[18px]">Săn deal Now</h3>
+                                    <ul className="text-black text-[15px] space-y-1">
+                                        <li className="border-b-1 border-gray-200 py-1">Áo polo nam</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Quần Kaki</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo Hoodie</li>
+                                        <li className="border-b-1 border-gray-200 py-1">Áo thể thao</li>
+                                    </ul>
+                                </div>
+                               
+                            </div>
+                        </div>
                     </ul>
                 </div>
                 <div className="w-14"></div>
@@ -59,7 +154,7 @@ export default function Header(){
                 </div>
             </div>
         </div>
-        
-        
+
+
     );
 }
